@@ -1,9 +1,11 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  var languages = ["C", "C++", "Java", "Dart", "Javascript"];
+  var language = ["C", "C++", "Java", "Dart", "Javascript"];
   
-  for(var languages in languages) {
-    
+  for(var language in language) {
+    print(language);
   }
+
+  print("Total bahasa: ${language.length}");
 }
